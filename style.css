@@ -40,4 +40,33 @@
     align-items: center;
     gap: 3rem;
   }
+
+  .reg-no {
+    margin-bottom: 1rem;
+    margin-left: 18rem ;
+  }
+  .reg-no span {
+    color: red;
+    
+  }
+  
+  main {
+    border: 1px solid black;
+    width: 75%;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  
+  .gen-info-header {
+    text-align: center;
+    background-color: rgb(200, 162, 200);
+    border-bottom: 1px solid black;
+  }
+  
+  .SGI-column {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 1.8;
+  }
   
