@@ -96,4 +96,48 @@
     border-spacing: 30px;
   }
   
+td {
+  padding: 8px;
+  text-align: left;
+}
+.table-container {
+  justify-content: spa;
+}
+
+.total-units {
+  font-weight: bolder;
+}
+
+.total-units div {
+  border-top: 3px solid black;
+  max-width: 40%;
+}
+
+.fees {
+  border: 1px solid black;
+  width:50%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  height: 10%
+}
+
+.fees-header {
+  text-align: center;
+  background-color: rgb(200, 162, 200);
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.fees h2 {
+  letter-spacing: 2mm;
+}
+
+.fees-contents {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+
+}
+
+
   
