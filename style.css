@@ -46,7 +46,7 @@
     margin-left: 18rem ;
   }
   .reg-no span {
-    color: red;
+    color: rgb(168, 12, 12);
     
   }
   
@@ -59,7 +59,7 @@
   
   .gen-info-header {
     text-align: center;
-    background-color: rgb(200, 162, 200);
+    background-color: rgb(186, 185, 230);
     border-bottom: 1px solid black;
   }
   
@@ -69,4 +69,31 @@
     text-align: left;
     line-height: 1.8;
   }
+
+  .course-header {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: rgb(186, 185, 230);
+  }
+  
+  .unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .unit div {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .unit h2 {
+    letter-spacing: 4mm;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 30px;
+  }
+  
   
